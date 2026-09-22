@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Структура HTML страницы</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Иконка сайта во вкладке браузера -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <!-- Ссылка -->
+        <a href="index.html">
+            <!-- Изображение -->
+            <img src="img/1.png" alt="Логотип компании" width="150">
+        </a>
+        <h1>О Красноярске</h1>
+
+        <!-- Навигационное меню -->
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="#">О нас</a></li>
+                <li><a href="#">Статьи</a></li>
+                <li><a href="#">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Основной контент страницы (один на странице) -->
+    <main>
+        <section>
+            <h2>Добро пожаловать!</h2>
+            <p>О культуре, достопримечательностях и чудесах Красноярска</p>
+        </section>
+
+        <!-- Раздел с несколькими карточками/новостями -->
+        <section class="test">
+            <h2>Наши новости</h2>
+
+            <article>
+                <h3>Про историю и культуру</h3>
+                <p>Суриков и Красноярск по следам художника</p>
+               <a class = "btn" href="s1.html">Читать далее</a>
+            </article>
+
+            <article>
+                <h3>Про природу и туризм</h3>
+                <p>Зимняя сказка Красноярск: где гулять, кататься и согреваться</p>
+                <a class = "btn" href="#">Читать далее</a>
+            </article>
+        </section>
+
+        <!-- Боковая панель с дополнительным контентом -->
+        <aside>
+            <h3>Полезные заметки</h3>
+            <p>Блок с дополнительной информацией, рекламой или ссылками.</p>
+        </aside>
+
+    </main>
+
+    <!-- Подвал сайта с якорем #contacts -->
+    <footer>
+        <h2>Контакты</h2>
+        <p>Свяжитесь с нами: <a href="mailto:info@example.com">info@example.com</a></p>
+        <p>&copy; 2026 Все права защищены.</p>
+    </footer>
+
+</body>
+</html>
