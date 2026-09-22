@@ -149,3 +149,32 @@ a.btn {
 a.btn:hover {
     background-color: #d6d6d6;  /* Цвет становится чуть темнее */
 }
+.banner {
+    margin: 0px auto;
+    text-align: center;
+}
+
+.banner img {
+    width: 900px;         /* ← меняется ТОЛЬКО длина */
+    height: 200px;        /* ← высота фиксирована, не меняется */
+    object-fit: cover;    /* картинка не искажается, аккуратно обрезается */
+    max-width: 100%;
+    margin-left: 0px;
+    display: block;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    opacity: 0.6;
+}
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;  /* центрирует пункты */
+    gap: 5px;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
